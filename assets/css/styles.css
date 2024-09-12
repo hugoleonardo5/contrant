@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 2px;
+}
+
+.menu {
+    background-color: rgb(27, 113, 175);
+    padding: 1em 0em 1em 0em;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 10em;
+    padding-left: 1em;
+    color: aliceblue;
+}
+
+.menu-list li {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.section-1 {
+    background-color: rgb(112, 103, 103);
+    padding: 1em 0em 25em 0em;
+}
+
+.texto-inicial {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: 100px 750px 0px 50px;
+    padding: 1em;
+    border: 1px white solid;
+    ;
+}
+
+.imagem-joao {
+    height: 720px;
+    width: 720px;
+    float: right;
+    margin-right: 10em;
+    margin-top: -17.3em;
+}
+
+.button-1 {
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    margin: 1em 0em 0em 16.5em;
+    border-radius: 5px;
+}
+
+.section-2 {
+    background-color: rgb(125, 60, 60);
+    padding: 1em 0em 15em 0em;
+}
+
+.titulo-section-2 {
+    font-size: 28px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.img-section-2 {
+    border: 1px white solid;
+}
+
+.texto-section-2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5em 10em 0em 50em;
+    padding: 1em 1em 25em 1em;
+}
+
+.section-3 {
+    background-color: rgb(97, 90, 90);
+    padding: 1em 0em 25em 0em;
+}
+
+.title-section-3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.section-3-content {
+    display: flex;
+    text-align: center;
+    margin: 2em 2em 2em 2em;
+    justify-content: center;
+    padding-bottom: 30em;
+}
+
+.section-3-text {
+    width: 20em;
+}
+
+footer{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
