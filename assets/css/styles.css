@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-shadow: 0px 0px 2px;
+    box-shadow: 0px 0px 5px black;
 }
 
 .menu {
@@ -36,7 +36,6 @@
     color: aliceblue;
     margin: 100px 650px 0px 50px;
     padding: 10px;
-    border: 1px white solid;
     text-align: justify;
 }
 
@@ -45,35 +44,46 @@
     width: 720px;
     float: right;
     margin-right: 10em;
-    margin-top: -17.3em;
+    margin-top: -16em;
 }
 
 .button-1 {
-    background-color: white;
+    background-color: transparent;
     font-size: 20px;
-    border: none;
-    margin: 1em 0em 0em 16.5em;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 1em 0em 0em 19em;
     border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .section-2 {
-    background-color: rgb(125, 60, 60);
-    padding: 1em 0em 15em 0em;
+    background-color: rgb(255, 255, 255);
+    padding: 1em 1em 15em 1em;
+}
+
+.section-2-main {
+    display: flex;
 }
 
 .titulo-section-2 {
     font-size: 28px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .img-section-2 {
-    border: 1px white solid;
+    border: 1px rgb(0, 0, 0) solid;
+    width: 750px;
+    height: 500px;
+    display: flex;
 }
 
 .texto-section-2 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     margin: 5em 10em 0em 50em;
     padding: 1em 1em 25em 1em;
@@ -103,7 +113,7 @@
     width: 20em;
 }
 
-footer{
+footer {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
