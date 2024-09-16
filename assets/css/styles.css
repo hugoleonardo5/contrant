@@ -25,16 +25,21 @@
     margin-left: 1em;
 }
 
+
+
+
+
 /* SEÇÃO 1*/
 
 .section-1 {
-    background: linear-gradient(rgb(0, 255, 0), rgb(0, 100, 0));
+    background: linear-gradient(rgb(0, 200, 0), rgb(0, 25, 0));
     padding: 1em 0em 25em 0em;
 }
 
 .texto-inicial {
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
     color: aliceblue;
     margin: 100px 650px 0px 50px;
     padding: 10px;
@@ -42,30 +47,35 @@
 }
 
 .imagem-joao {
-    height: 720px;
-    width: 720px;
+    height: 50%;
+    width: 50%;
     float: right;
     margin-right: 5em;
-    margin-top: -16em;
+    margin-top: -10.35em;
+    background-position: bottom;
 }
 
 .button-1 {
     background-color: transparent;
     font-size: 20px;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 10px;
     margin: 1em 0em 0em 19em;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
 }
+
+
+
+
 
 /* SEÇÃO 2*/
 
 .section-2 {
     background-color: rgb(255, 255, 255);
-    padding: 1em 1em 1em 1em;
+    padding: 3em 1em 3em 1em;
 }
 
 .titulo-section-2 {
@@ -102,6 +112,10 @@ hr {
     font-weight: bold;
 }
 
+
+
+
+
 /* SEÇÃO 3*/
 
 .section-3 {
@@ -133,6 +147,10 @@ hr {
     padding: 1em;
 }
 
+
+
+
+
 /* CABEÇALHO 3*/
 
 footer {
@@ -141,3 +159,5 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+
+/* Criado por Hugo Leonardo */
